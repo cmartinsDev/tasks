@@ -1,0 +1,243 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-community_async-storage] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b11dee1764312b6d44b47828bdb7591f/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b52519303b9b511748d8384adaec8a83/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/c7f4c2b274ec3dea9deaf1472507c02c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7a3e174ac71fc0723845611fa1a4504d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cd0974339ed4ea052b349c46c65dd6cc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/4d348a70b4ed67d5c0dd66ff608b9f6b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/eeaf7f57073f3ea7b0c1161767107ddc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9fffcb923b3852cc53758a9b6407cc43/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/19514eaa0b64aac853b4c878fc817617/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7e6bbbafddf5d2f8f19283a1da683f36/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cf8d8a163e9ccd55be23d7cfdd2790ce/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/07750715d385f4fa0e3460530da8b95a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9654aaee9ca2d9e933d8236fd6a92412/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/3e75d5886dd028ac723f1c1b929209d7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/f4c1ea04cdf31f6f0946b3b1df49fccd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d9dfa3cde41db6b6e5508e360fe2027d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d804120e01271ddf8618e8373615099e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/24ac9bd3223f5ef776d1ef8c8d184228/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9b391e650e7033ee1c15ebb99ca1a289/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/0618f5b476a4de803b12eaf3aa9d55ee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/97fa2ee8e42afa923355030d1a497772/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/56b2a27f96fd184f90a6c0f499b4540a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/14a72c2c1a82b9cc2c138d2c1b57fd25/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d4d91d1bd28757cd863d7efb64a53754/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9421be6f35adf107d050180c31c8f532/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/2c9a66c2a2ab15e99d5f4c77cd1aa88d/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9f7ea671d07e3734eb4905934ed047b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ef648fd0257b477c7cb3e17197d8b8dc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/5d4fb62b371aacdbb4551a7c138fc3c0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d6858bbab4b9f266e4c16d5cbbb0d1ab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ebba25cb9874fbe6b817d1013c55f0e3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/1b8a63fcabbb61beea85110767311d03/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/fe4c73bd88c8db6276b21886a0ce2a02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/384e685177adea8be7a9cec0148737ec/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ab6cc26e7fa4c0b7b45a1445cf8f143e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/576808efde203692d897ca0519f657b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d5730a3c8aef8e40576c044a4e56c54c/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:2:3-22
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:2:3-22
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [:react-native-community_datetimepicker] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b11dee1764312b6d44b47828bdb7591f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b11dee1764312b6d44b47828bdb7591f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cf8d8a163e9ccd55be23d7cfdd2790ce/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cf8d8a163e9ccd55be23d7cfdd2790ce/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/2c9a66c2a2ab15e99d5f4c77cd1aa88d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/2c9a66c2a2ab15e99d5f4c77cd1aa88d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.tasks.MainActivity
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_async-storage] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b11dee1764312b6d44b47828bdb7591f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b11dee1764312b6d44b47828bdb7591f/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b52519303b9b511748d8384adaec8a83/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/b52519303b9b511748d8384adaec8a83/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/c7f4c2b274ec3dea9deaf1472507c02c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/c7f4c2b274ec3dea9deaf1472507c02c/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7a3e174ac71fc0723845611fa1a4504d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7a3e174ac71fc0723845611fa1a4504d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cd0974339ed4ea052b349c46c65dd6cc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cd0974339ed4ea052b349c46c65dd6cc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/4d348a70b4ed67d5c0dd66ff608b9f6b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/4d348a70b4ed67d5c0dd66ff608b9f6b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/eeaf7f57073f3ea7b0c1161767107ddc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/eeaf7f57073f3ea7b0c1161767107ddc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9fffcb923b3852cc53758a9b6407cc43/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9fffcb923b3852cc53758a9b6407cc43/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/19514eaa0b64aac853b4c878fc817617/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/19514eaa0b64aac853b4c878fc817617/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7e6bbbafddf5d2f8f19283a1da683f36/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/7e6bbbafddf5d2f8f19283a1da683f36/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cf8d8a163e9ccd55be23d7cfdd2790ce/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/cf8d8a163e9ccd55be23d7cfdd2790ce/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/07750715d385f4fa0e3460530da8b95a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/07750715d385f4fa0e3460530da8b95a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9654aaee9ca2d9e933d8236fd6a92412/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9654aaee9ca2d9e933d8236fd6a92412/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/3e75d5886dd028ac723f1c1b929209d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/3e75d5886dd028ac723f1c1b929209d7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/f4c1ea04cdf31f6f0946b3b1df49fccd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/f4c1ea04cdf31f6f0946b3b1df49fccd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d9dfa3cde41db6b6e5508e360fe2027d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d9dfa3cde41db6b6e5508e360fe2027d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d804120e01271ddf8618e8373615099e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d804120e01271ddf8618e8373615099e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/24ac9bd3223f5ef776d1ef8c8d184228/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/24ac9bd3223f5ef776d1ef8c8d184228/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9b391e650e7033ee1c15ebb99ca1a289/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9b391e650e7033ee1c15ebb99ca1a289/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/0618f5b476a4de803b12eaf3aa9d55ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/0618f5b476a4de803b12eaf3aa9d55ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/97fa2ee8e42afa923355030d1a497772/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/97fa2ee8e42afa923355030d1a497772/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/56b2a27f96fd184f90a6c0f499b4540a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/56b2a27f96fd184f90a6c0f499b4540a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/14a72c2c1a82b9cc2c138d2c1b57fd25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/14a72c2c1a82b9cc2c138d2c1b57fd25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d4d91d1bd28757cd863d7efb64a53754/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d4d91d1bd28757cd863d7efb64a53754/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9421be6f35adf107d050180c31c8f532/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9421be6f35adf107d050180c31c8f532/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/79f2fd309add0ed95c8225717d89fd23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/2c9a66c2a2ab15e99d5f4c77cd1aa88d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/2c9a66c2a2ab15e99d5f4c77cd1aa88d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9f7ea671d07e3734eb4905934ed047b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/9f7ea671d07e3734eb4905934ed047b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ef648fd0257b477c7cb3e17197d8b8dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ef648fd0257b477c7cb3e17197d8b8dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/5d4fb62b371aacdbb4551a7c138fc3c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/5d4fb62b371aacdbb4551a7c138fc3c0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d6858bbab4b9f266e4c16d5cbbb0d1ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d6858bbab4b9f266e4c16d5cbbb0d1ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ebba25cb9874fbe6b817d1013c55f0e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ebba25cb9874fbe6b817d1013c55f0e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/1b8a63fcabbb61beea85110767311d03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/1b8a63fcabbb61beea85110767311d03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/fe4c73bd88c8db6276b21886a0ce2a02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/fe4c73bd88c8db6276b21886a0ce2a02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/384e685177adea8be7a9cec0148737ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/384e685177adea8be7a9cec0148737ec/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ab6cc26e7fa4c0b7b45a1445cf8f143e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/ab6cc26e7fa4c0b7b45a1445cf8f143e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/576808efde203692d897ca0519f657b5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/576808efde203692d897ca0519f657b5/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d5730a3c8aef8e40576c044a4e56c54c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/carlos_martins/.gradle/caches/transforms-2/files-2.1/d5730a3c8aef8e40576c044a4e56c54c/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/src/debug/AndroidManifest.xml:5:22-75

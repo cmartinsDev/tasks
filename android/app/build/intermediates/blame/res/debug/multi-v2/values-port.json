@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/carlos_martins/.gradle/caches/transforms-2/files-2.1/c7f4c2b274ec3dea9deaf1472507c02c/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

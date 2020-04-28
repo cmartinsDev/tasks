@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/carlos_martins/projects/cursos/Udemy/react-native/04.tasks/tasks/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/home/carlos_martins/.gradle/caches/transforms-2/files-2.1/c7f4c2b274ec3dea9deaf1472507c02c/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    }
+                }
+            ]
+        }
+    ]
+}
