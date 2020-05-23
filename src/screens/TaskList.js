@@ -16,17 +16,32 @@ import AddTask from './AddTask'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 import AsyncStorage from '@react-native-community/async-storage'
+import { server, showError, showSuccess } from '../common';
+import axios from "axios"
 
 const initState = { showDoneTasks: true, showAddTask: false, visibleTasks: [], tasks:[] }
 
 export default class TaskList extends Component {
   // estado
   state = { ...initState }
+  
   // função ciclo de vida
   componentDidMount = async () => {
     const stateString = await AsyncStorage.getItem('TasksState')
-    const state = JSON.parse(stateString) || initState
-    this.setState(state, this.filterTasks)
+    const savedState = JSON.parse(stateString) || initState
+    this.setState({ showDoneTasks: savedState.showDoneTasks }, this.filterTasks)
+    this.loadTasks()
+  }
+
+ // carregar as tasks do banco de dados 
+  loadTasks = async () => {
+    try {
+      const maxDate = moment().format('YYYY-MM-DD 23:59:59')
+      const res = await axios.get(`${server}/tasks?date=${maxDate}`)
+      this.setState({tasks: res.data}, this.filterTasks)
+    } catch (e) {
+      showError(e)
+    }
   }
 
   // função para fazer a alternancia para ver as tasks concluidas.
@@ -39,7 +54,7 @@ export default class TaskList extends Component {
     return task.doneAt === null
   }
 
-  // 
+  // filtrar as tasks
   filterTasks  = () => {
     let visibleTasks = null
     if (this.state.showDoneTasks) {
@@ -48,42 +63,55 @@ export default class TaskList extends Component {
       visibleTasks = this.state.tasks.filter(this.isPending)
     }
     this.setState({visibleTasks})
-    AsyncStorage.setItem('TasksState', JSON.stringify(this.state))
+    AsyncStorage.setItem('TasksState', JSON.stringify({
+      showDoneTasks: this.state.showDoneTasks
+    }))
   }
 
-  toggleTask = taskId => {
-    const tasks = [...this.state.tasks]
-    tasks.forEach(task => {
-      if (task.id === taskId) {
-        task.doneAt = task.doneAt ? null : new Date()
-      }
-    })
-    // O SetState recebe como 2nd parametro uma callback então para que depois de habilitar o filtro
-    // e selecionar a tarefa como concluida ele deve esconde-la.
-    this.setState({tasks: tasks}, this.filterTasks)
-  }
-
-  // função enca
-  addTask = newTask => {
-    if(!newTask.desc || !newTask.desc.trim()) {
-      Alert.alert('Dados Inválidos', 'Descrição não informada!')
-      return
+  // marcar e desmarcar a task como concluido
+  toggleTask = async taskId => {
+    try {
+      await axios.put(`${server}/tasks/${taskId}/toggle`)
+      this.loadTasks()
+    } catch (e) {
+      showError(e)
     }
-    // gerando um clone do array
-    const tasks = [...this.state.tasks]
-    tasks.push({
-      id: Math.random(),
-      desc: newTask.desc,
-      estimateAt: newTask.date,
-      doneAt: null
-    })
-
-    this.setState({tasks, showAddTask: false}, this.filterTasks)
+       
+    // const tasks = [...this.state.tasks]
+    // tasks.forEach(task => {
+    //   if (task.id === taskId) {
+    //     task.doneAt = task.doneAt ? null : new Date()
+    //   }
+    // })
+    // // O SetState recebe como 2nd parametro uma callback então para que depois de habilitar o filtro
+    // // e selecionar a tarefa como concluida ele deve esconde-la.
+    // this.setState({tasks: tasks}, this.filterTasks)
   }
 
-  deleteTask = id => {
-    const tasks = this.state.tasks.filter(task => task.id !== id)
-    this.setState({tasks}, this.filterTasks)
+  // função para add nova task
+  addTask = async newTask => {
+    try {
+      if(!newTask.desc || !newTask.desc.trim()) {
+        Alert.alert('Dados Inválidos', 'Descrição não informada!')
+        return
+      }
+      await axios.post(`${server}/tasks`, { desc: newTask.desc, estimateAt: newTask.date })
+      this.setState({showAddTask: false}, this.loadTasks)
+    } catch (e) {
+      showError(e)
+    }
+  }
+
+  // Remover a task
+  deleteTask = async id => {
+    try {
+      await axios.delete(`${server}/tasks/${id}`)
+      this.loadTasks()
+    } catch (e) {
+      showError(e)
+    }
+    // const tasks = this.state.tasks.filter(task => task.id !== id)
+    // this.setState({tasks}, this.filterTasks)
   }
 
   render () {

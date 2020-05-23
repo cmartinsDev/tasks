@@ -11,8 +11,8 @@ import axios from 'axios'
 
 const initialState = {
   name: '',
-  email: '',
-  password: '',
+  email: 'cmartins.dev@gmail.com',
+  password: 'test123',
   confirmPassword: '',
   stageNew: false,
 }
