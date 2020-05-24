@@ -27,7 +27,12 @@ export default class Auth extends Component {
       this.signin()
     }
   }
+  /*************************************
+   * Author: Carlos Martins
+   * FUNÇÃO QUE MANIPULA DADOS NO BACKEND
+  ***************************************/
 
+  // Função para se cadastrar
   signup = async () => {
     try {
       await axios.post(`${server}/signup`, {
@@ -44,7 +49,7 @@ export default class Auth extends Component {
       showError(e)
     }
   }
-
+  // Função para se logar no app
   signin = async () => {
     try {
       const res  = await axios.post(`${server}/signin`, {
@@ -53,7 +58,7 @@ export default class Auth extends Component {
       })
 
       axios.defaults.headers.common['Authorization'] = `bearer ${res.data.token}`
-      this.props.navigation.navigate('Home')  // indo para a proxima tela
+      this.props.navigation.navigate('Home', res.data)  // indo para a proxima tela
     } catch (e) {
       this.setState({...initialState})
       showError(e)

@@ -5,6 +5,25 @@ import { createDrawerNavigator } from 'react-navigation-drawer'
 // importando as telas
 import Auth from './screens/Auth'
 import TaskList from './screens/TaskList'
+import Menu from './screens/Menu'
+import commonStyles from './commonStyles'
+
+const menuConfig = {
+  initialRouteName: 'Today',
+  contentComponent: Menu,
+  contentOptions: {
+    labelStyle: {
+      fontFamily: commonStyles.fontFamily,
+      fontWeight: 'normal',
+      fontSize: 20,
+    },
+    activeLabelStyle: {
+      fontWeight: 'bold',
+      color: '#080'
+    },
+  }
+}
+
 
 const menuRoutes = {
   Today: {
@@ -37,7 +56,7 @@ const menuRoutes = {
   }
 }
 
-const menuNavigator = createDrawerNavigator(menuRoutes)
+const menuNavigator = createDrawerNavigator(menuRoutes, menuConfig)
 
 // Routas
 const mainRoutes = {
