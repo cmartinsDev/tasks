@@ -12,6 +12,7 @@ After you install your device in your machine, please open terminal, its necessa
 2. in the second tab run this command: npm react-native (run-android | run-ios)
 
 ## Tasks app Screens
+<<<<<<< HEAD
 1. Authentication:
 <img src="/assets/screenshot/Tasks-app-Auth.png" width="250" height="530">
 
