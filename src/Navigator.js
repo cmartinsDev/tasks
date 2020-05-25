@@ -7,6 +7,7 @@ import Auth from './screens/Auth'
 import TaskList from './screens/TaskList'
 import Menu from './screens/Menu'
 import commonStyles from './commonStyles'
+import AuthOrApp from './screens/AuthOrApp';
 
 const menuConfig = {
   initialRouteName: 'Today',
@@ -23,7 +24,6 @@ const menuConfig = {
     },
   }
 }
-
 
 const menuRoutes = {
   Today: {
@@ -60,6 +60,10 @@ const menuNavigator = createDrawerNavigator(menuRoutes, menuConfig)
 
 // Routas
 const mainRoutes = {
+  AuthOrApp: {
+    name: 'AuthOrApp', // Component para ver se o user ja esta logado ou não
+    screen: AuthOrApp
+  },
   Auth: {
     name: 'Auth',
     screen: Auth
@@ -70,6 +74,6 @@ const mainRoutes = {
   }
 }
 
-const mainNavigator = createSwitchNavigator(mainRoutes, {initialRouteName: 'Auth'})
+const mainNavigator = createSwitchNavigator(mainRoutes, {initialRouteName: 'AuthOrApp'})
 
 export default createAppContainer(mainNavigator)

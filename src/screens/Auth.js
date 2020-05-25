@@ -1,13 +1,12 @@
 import React, { Component} from 'react'
 import { ImageBackground, Text, StyleSheet, View, TouchableOpacity, Alert } from 'react-native'
-
-import commonStyles from '../commonStyles'
-
+import axios from 'axios'
 import backgroundImage from '../../assets/imgs/login.jpg'
-
+import commonStyles from '../commonStyles'
 import AuthInput from '../components/AuthInput'
 import { server, showError, showSuccess } from '../common'
-import axios from 'axios'
+import AsyncStorage from '@react-native-community/async-storage'
+
 
 const initialState = {
   name: '',
@@ -56,6 +55,9 @@ export default class Auth extends Component {
         email: this.state.email,
         password: this.state.password
       })
+
+      // Armazenando no asyncStorage o usuario do backend
+      AsyncStorage.setItem('userData', JSON.stringify(res.data))
 
       axios.defaults.headers.common['Authorization'] = `bearer ${res.data.token}`
       this.props.navigation.navigate('Home', res.data)  // indo para a proxima tela
