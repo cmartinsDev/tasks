@@ -3,7 +3,7 @@ import { Alert, Platform } from 'react-native'
 
 const server = Platform.OS === 'ios' ? 
                                 'http://localhost:4000' :
-                                'http://192.168.0.52:4000'
+                                'http://tasksapp-backend.herokuapp.com'
 
 function showError(err) {
   if (err.response && err.response.data) {
